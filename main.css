@@ -1,0 +1,38 @@
+html {
+  font-family: Verdana, Arial;
+}
+
+.group {
+  display: flex;
+  width: 100%;
+}
+
+.bg {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 15px;
+  height: 4px;
+  background: inherit;
+  position: relative;
+  transform: rotate(-45deg);
+  /* -webkit-background-clip: text; */
+  /* background-clip: text; */
+  /* color: transparent; */
+}
+
+.text::after {
+  display: block;
+  content: '';
+  background: inherit;
+  width: 4px;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+}

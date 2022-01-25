@@ -1,2 +1,3 @@
-# trial-css-filter
-Testing css filter
+# CSS filter
+
+Tests of CSS filter attribute.
